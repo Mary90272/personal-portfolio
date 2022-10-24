@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my webpage</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- header -->
+    <header>
+        <!--navbar-->
+            <nav>
+                <div class="logo-box">
+                   
+                    <!-- logo -->
+                    <h1>Maria Fedorova</h1>
+                </div>
+                
+                    <ul id="myDropdown" class="list-nav">
+                        <li>
+                            <a href="#about">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#work">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact Me</a>
+                        </li>
+                        <li>
+                            <a href="">Resume</a>
+                        </li>
+                    </ul>
+                    <button onclick="myFunction()" class="dropbtn hamburger" >
+                        <i class="fas fa-bars"></i>
+                    </button>
+            </nav>
+    </header>
+  <main>
+    <!-- images section -->
+    <section class="home">
+        
+            <section class="home-text-box">
+                <img class="my-images" src="./assets/img/lastone.jpeg">
+                <p>Software Developer </p>
+            </section>
+        
+    </section>
+
+    <!-- Section  About me -->
+    <section id="about" class="container">
+        
+            <section class="grid-box">
+                <section class="item1">
+                    <p>About Me</p>
+                </section>
+                <section class="item2">
+                    <p>Hello, my name Maria. I am a self-motivated Entry-level Full Stack Developer. I am currently enrolled in a full stack bootcamp. Later you will be able to find some of my current project and sample my work.</p>
+                </section>
+            </section>
+        
+    </section>
+
+    <!--Section work with 5 grid box -->
+    <section class="container">
+           <!--grid section-->
+            <section class="grid-box">
+                <!--work section-->
+                <section id="work" class="item1">
+                    <p>Work</p>
+                </section>
+                <!--section for 5-->
+                <section class="item2">
+                    <section class="grid-container">
+                        <!-- 1 -->
+                        <section class="sub-item1 sub-container">
+                            <section class="work-box">
+                                <section class="blue-overlay"></section>
+                                <img class="image" src="./assets/img/header.jpg" >
+                                </section>
+                            <section class="work-box-text">
+                                <h1>Surf Report</h1>
+                                <p>MERN Stack</p>
+                            </section>
+                        </section>
+                        <!-- 2 -->
+                        <section class="sub-item2 sub-container">
+                            <section class="work-box1">
+                                <section class="blue-overlay"></section>
+                                <img class="image" src="./assets/img/box 1.jpg"  >
+                            </section>
+                            <section class="work-box-text">
+                                <h1>LED Wall</h1>
+                                <p>Node/Iot</p>
+                            </section>
+                        </section>
+                        <!-- 3 -->
+                        <section class="sub-item3 sub-container">
+                            <section class="work-box1">
+                                <section class="blue-overlay"></section>
+                                <img class="image"src="./assets/img/box2.jpg" >
+                            </section>
+                            <section class="work-box-text">
+                                <h1>Calculator</h1>
+                                <p>React/JavaScript/CSS</p>
+                            </section>
+                        </section>
+                        <!-- 4 -->
+                        <section class="sub-item4 sub-container">
+                            <section class="work-box1">
+                                <section class="blue-overlay"></section>
+                                <img class="image"src="./assets/img/box2.jpg">
+                            </section>
+                            <section class="work-box-text">
+                                <h1>Pastel Puzzels</h1>
+                                <p>Mern Stack</p>
+                            </section>
+                        </section>
+                        <!-- 5 -->
+                        <section class="sub-item5 sub-container">
+                            <section class="work-box1">
+                                <section class="blue-overlay"></section>
+                                <img class="image" src="./assets/img/box 1.jpg" >
+                            </section>
+                            <section class="work-box-text">
+                                <h1>Run Buddy</h1>
+                                <p>HTML/CSS</p>
+                            </section>
+                        </section> 
+                    </section>
+                </section>
+            </section>
+      
+    </section>
+  </main>
+    <!-- Contact me -->
+     <!--footer contact and link-->
+        <footer id="contact">
+            <section class="grid-box">
+                <section class="item1">
+                    <p>Contact Me</p>
+                </section>
+                <section class="item2">
+                    <section class="contact-box">
+                        <ul>
+                            <li>
+                                <a href="tel:555.555.5555">555.555.5555</a>
+                            </li>
+                            <li>
+                                <a href="mailto:lefebvre.mary90272@gmail.com?subject = feedback&body = Message">Email Me</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Mary90272">Github</a>
+                            </li>
+                            <li>
+                                <a href="#">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#">Spotify</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </footer>
+   
+    <!--Js for drop nav media query only-->
+    <script src="./javascript.js"></script>
+</body>
+</html>
