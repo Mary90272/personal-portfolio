@@ -12,7 +12,11 @@ also for the media-query, I did a little redesign of the navigation bar by addin
 N/A
 
 
-## Credits
-N/A
-## License
+## Images of Deployed Application
+
+## Relevant Links
+GitHub Repo:
+https://github.com/Mary90272/personal-portfolio
+Deployed Application:
 https://mary90272.github.io/personal-portfolio/
+
