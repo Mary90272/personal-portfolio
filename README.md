@@ -17,6 +17,6 @@ N/A
 ## Relevant Links
 GitHub Repo:
 https://github.com/Mary90272/personal-portfolio
-Deployed Application:
+<br>Deployed Application:
 https://mary90272.github.io/personal-portfolio/
 
