@@ -13,7 +13,7 @@ N/A
 
 
 ## Images of Deployed Application
-![alt text](assets/screenshot/screencapture.png)
+![alt text](assets/screenshot/new_screenshot.png)
 ## Relevant Links
 GitHub Repo:
 https://github.com/Mary90272/personal-portfolio
