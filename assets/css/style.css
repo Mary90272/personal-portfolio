@@ -68,7 +68,7 @@ ul{
 /* added new folder update header images*/
 .home{
     position: relative;
-    background-image: url('/assets/img/header.jpg');
+    background-image: url('../img/header.jpg');
     width: 100%;
     height: 400px;
     background-repeat: no-repeat;
@@ -299,7 +299,7 @@ footer{
     /* home section */
     .home{
         position: relative;
-        background-image: url('/assets/img/box_img.jpg');
+        background-image: url('../img/header.jpg');
         width: 100%;
         height: 400px;
         background-repeat: no-repeat;
